@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 		exit(EXIT_FAILURE);
 	}
 
+	//fake support for -c
 	while ((c = getopt(argc, argv, "c:")) != -1);
 
 	argc -= optind;
