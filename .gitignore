@@ -1,2 +1,3 @@
+*.o
 ionice
 ionice_fork
